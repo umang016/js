@@ -35,3 +35,29 @@ const myFunction = function(){
 console.log(typeof myObj);
 
 // // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++++++++++++++++++++
+
+// Stack memory (Primitive), Heap memory (Non-Primitive)
+
+let myName = "umang"
+
+let anothername = myName
+anothername = "chai or code"
+
+console.log(anothername);
+console.log(myName);
+
+let user = {
+    email: "jskjdk@gmail.com",
+    upi: "uder@ybl",
+}
+
+let userone = user
+    
+userone.email = "umang@microsoft.com"
+
+console.log(user.email);
+console.log(userone.email);
