@@ -22,5 +22,14 @@ let myTimeStamp = Date.now()
 // console.log((Date.now()/1000));
 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getDay());
+// console.log(newDate);
+// console.log(newDate.getDay());
+// console.log(newDate.getFullYear());
+// console.log(newDate.getDay());
+
+// //`${newDate.getDate()} and the time`
+
+newDate.toLocaleString('default', {
+    weekday: "short",
+})
+// console.log(newDate);
