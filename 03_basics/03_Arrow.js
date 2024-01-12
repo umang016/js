@@ -43,7 +43,12 @@ const chai = function(){
 
 // const addTwo = (num1, num2) => ( num1 + num2)
 
-const addTwo = (num1, num2) => ( num1 + num2 )
-
+// const addTwo = (num1, num2) => ( num1 + num2 )
+const addTwo = (num1, num2) => ({username: "umang"})
 
 console.log(addTwo(3,4));
+
+
+// const myArray = [2, 3, 5, 6,]
+
+// myArray.forEach()
